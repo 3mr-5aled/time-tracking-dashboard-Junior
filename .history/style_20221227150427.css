@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  /* Primary colors */
+  --blue-color: rgb(88, 71, 235);
+  --light-red: rgb(255, 140, 102); /*(work)*/
+  --soft-blue: rgb(86, 194, 230); /*(play)*/
+  --light-red: rgb(255, 92, 124); /*(study)*/
+  --lime-green: rgb(74, 207, 129); /*(exercise)*/
+  --violet-color: rgb(117, 54, 211); /*(social)*/
+  --soft-orange: rgb(241, 198, 91); /*(self care)*/
+
+  /* Neutral colors */
+  --very-darkBlue: rgb(15, 20, 36);
+  --dark-blue: rgb(28, 31, 74);
+  --desaturated-blue: #6f76c8;
+  --pale-blue: rgb(189, 193, 255);
+
+  /* card font size */
+  /* --fs-card: 18px; */
+
+  /* media quires */
+  /* --mobile-view: 375px; */
+  /* --desktop-view: 1440px; */
+}
+
+.grid {
+  display: grid;
+  background: var(--very-dark-blue);
+  height: 100%;
+  width: 100%;
+}
