@@ -278,6 +278,7 @@ h6 {
 
 @media screen and (min-width: 560px) {
   .main {
+    margin-top: 0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 20px;
@@ -350,6 +351,7 @@ h6 {
     padding: 50px;
   }
   .main {
+    margin-top: 0;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
