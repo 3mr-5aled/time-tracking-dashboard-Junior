@@ -139,14 +139,20 @@ body {
 .shown {
   display: block !important;
 }
-.daily {
-  display: none;
+#daily {
+  /* display: none; */
+  position: absolute;
+  z-index: 20;
 }
-.weekly {
-  display: none;
+#weekly {
+  /* display: none; */
+  position: absolute;
+  z-index: 30;
 }
-.monthly {
-  display: none;
+#monthly {
+  /* display: none; */
+  position: absolute;
+  z-index: 40;
 }
 
 .hiddenOverflow {
@@ -202,6 +208,20 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 85%;
+}
+.show {
+  /* display: flex; */
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s;
+  transition-delay: 0.5s;
+}
+.hidden {
+  /* display: none; */
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 1s;
 }
 
 h4 {
